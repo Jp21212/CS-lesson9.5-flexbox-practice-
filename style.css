@@ -3,11 +3,28 @@
 }
 
 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 150px;
     width: 150px;
     background-color: greenyellow;
     font-size: 40pt;
-
+    flex-grow: 1;
 }
 
+.parent-container{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   height: 500px;
+   background-color: beige;
+   flex-direction: column;
+   gap: 20px;
+   flex-wrap: wrap;
+   align-content: center;
+}
 
+#box-one{
+    flex-grow: 1;
+}
