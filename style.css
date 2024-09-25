@@ -1,0 +1,13 @@
+*{
+    border: 1px solid red;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: greenyellow;
+    font-size: 40pt;
+
+}
+
+
